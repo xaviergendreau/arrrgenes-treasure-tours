@@ -94,7 +94,7 @@ header p {
   margin: 0 0 1.5rem;
 }
 
-.nav a {
+.banner a {
   display: inline-block;
   background-color: transparent;
   padding: .5em 1.5em .6em;
@@ -115,7 +115,7 @@ header a:focus {
   outline-offset: .2rem;
 }
 
-.ship {
+article {
   padding: 2rem;
 }
 
