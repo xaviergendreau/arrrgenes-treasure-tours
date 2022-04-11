@@ -56,7 +56,6 @@ nav a {
   text-decoration: none;
 }
 
-
 nav a:hover {
   background-color: #bea59b;
 }
@@ -120,7 +119,7 @@ nav a:focus {
   padding: 2rem;
 }
 
-.card {
+.masthead {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,21 +132,21 @@ nav a:focus {
   text-align: center;
 }
 
-.card img {
+.masthead img {
   width: 12em;
   margin: 0 0 1.5rem;
 }
 
-.card h2 {
+.masthead h2 {
   margin: 0 0 1.5rem;
 }
 
-.card p {
+.masthead p {
   max-width: 28em;
   margin: 0 0 1.5rem;
 }
 
-.card a {
+.masthead a {
   display: inline-block;
   background-color: #bea59b;
   padding: .5em 1.5em .6em;
