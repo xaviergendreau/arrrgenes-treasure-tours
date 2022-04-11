@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 
-header {
+.masthead {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,19 +25,19 @@ header {
   font-size: 1.25rem;
 }
 
-header h1 {
+.masthead h1 {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
 }
 
-header img {
+.masthead img {
   width: 2em;
   height: 2em;
   margin-right: .5rem;
 }
 
-header span {
+.masthead span {
   width: 9em;
 }
 
@@ -66,7 +66,7 @@ nav a:focus {
   outline-offset: .2rem;
 }
 
-.book {
+header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -75,7 +75,7 @@ nav a:focus {
   font-size: 1.5rem;
 }
 
-.book img {
+header img {
   grid-area: banner;
   width: 100%;
 }
@@ -89,8 +89,8 @@ nav a:focus {
   text-align: center;
 }
 
-.book h2,
-.book p {
+header h2,
+header p {
   margin: 0 0 1.5rem;
 }
 
@@ -105,11 +105,11 @@ nav a:focus {
   text-decoration: none;
 }
 
-.book a:hover {
+header a:hover {
   background-color: #bea59b;
 }
 
-.book a:focus {
+header a:focus {
   background-color: #bea59b;
   outline: .15rem solid #fff;
   outline-offset: .2rem;
