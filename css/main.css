@@ -89,10 +89,13 @@ nav a:focus {
   text-align: center;
 }
 
+h2 {
+  background-color: inherit;
+}
+
 .book h2,
 .book p {
   margin: 0 0 1.5rem;
-  background-color: inherit;
 }
 
 .book a {
