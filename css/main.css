@@ -56,6 +56,9 @@ nav a {
   text-decoration: none;
 }
 
+.nav a{
+}
+
 nav a:hover {
   background-color: #bea59b;
 }
