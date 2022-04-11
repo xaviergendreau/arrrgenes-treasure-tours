@@ -56,9 +56,6 @@ nav a {
   text-decoration: none;
 }
 
-.nav a{
-}
-
 nav a:hover {
   background-color: #bea59b;
 }
@@ -83,7 +80,7 @@ nav a:focus {
   width: 100%;
 }
 
-.book nav {
+.nav {
   grid-area: banner;
   align-self: center;
   justify-self: center;
@@ -97,7 +94,7 @@ nav a:focus {
   margin: 0 0 1.5rem;
 }
 
-.book a {
+.nav a {
   display: inline-block;
   background-color: transparent;
   padding: .5em 1.5em .6em;
