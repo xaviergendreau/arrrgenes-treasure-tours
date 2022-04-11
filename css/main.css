@@ -92,6 +92,7 @@ nav a:focus {
 .book h2,
 .book p {
   margin: 0 0 1.5rem;
+  background-color: inherit;
 }
 
 .book a {
