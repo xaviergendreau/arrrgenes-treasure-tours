@@ -14,7 +14,7 @@ body {
   margin: 0;
 }
 
-.masthead {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,23 +25,23 @@ body {
   font-size: 1.25rem;
 }
 
-.masthead h1 {
+header h1 {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
 }
 
-.masthead img {
+header img {
   width: 2em;
   height: 2em;
   margin-right: .5rem;
 }
 
-.masthead span {
+header span {
   width: 9em;
 }
 
-.nav ul {
+nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -49,14 +49,24 @@ body {
   align-items: center;
 }
 
-.nav a {
+nav a {
   color: #fff;
   padding: .5em;
   border-radius: 1em;
   text-decoration: none;
 }
 
-.banner {
+nav a:hover {
+  background-color: #bea59b;
+  }
+
+nav a:focus {
+  background-color: #bea59b;
+  outline: 0.15rem solid #fff;
+  outline-offset: 0.2rem;
+}
+
+.book {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -65,12 +75,12 @@ body {
   font-size: 1.5rem;
 }
 
-.banner img {
+.book img {
   grid-area: banner;
   width: 100%;
 }
 
-.banner div {
+.book nav {
   grid-area: banner;
   align-self: center;
   justify-self: center;
@@ -79,12 +89,12 @@ body {
   text-align: center;
 }
 
-.banner h2,
-.banner p {
+.book h2,
+.book p {
   margin: 0 0 1.5rem;
 }
 
-.banner a {
+.book a {
   display: inline-block;
   background-color: transparent;
   padding: .5em 1.5em .6em;
@@ -93,6 +103,16 @@ body {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+}
+
+.book a:hover {
+  background-color: #bea59b
+}
+
+.book a:focus {
+  background-color: #bea59b;
+  outline: 0.15rem solid #fff;
+  outline-offset: 0.2rem;
 }
 
 .ship {
@@ -136,7 +156,7 @@ body {
   text-decoration: none;
 }
 
-.footer {
+footer {
   background-color: #522806;
   border-top: .3rem solid #bea59b;
   color: #fff;
@@ -145,6 +165,6 @@ body {
   padding: 1rem;
 }
 
-.footer * {
+footer * {
   margin: 0;
 }
