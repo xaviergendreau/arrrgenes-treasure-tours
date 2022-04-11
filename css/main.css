@@ -58,12 +58,12 @@ nav a {
 
 nav a:hover {
   background-color: #bea59b;
-  }
+}
 
 nav a:focus {
   background-color: #bea59b;
-  outline: 0.15rem solid #fff;
-  outline-offset: 0.2rem;
+  outline: .15rem solid #fff;
+  outline-offset: .2rem;
 }
 
 .book {
@@ -106,13 +106,13 @@ nav a:focus {
 }
 
 .book a:hover {
-  background-color: #bea59b
+  background-color: #bea59b;
 }
 
 .book a:focus {
   background-color: #bea59b;
-  outline: 0.15rem solid #fff;
-  outline-offset: 0.2rem;
+  outline: .15rem solid #fff;
+  outline-offset: .2rem;
 }
 
 .ship {
